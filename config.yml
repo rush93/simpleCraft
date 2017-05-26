@@ -1,0 +1,31 @@
+#This is the config file for the SimpleCraft plugin
+
+disabledCraft:
+    - BEDROCK                          #exemple
+    - BEDROCK:2                        #exemple
+
+enableUsePermission: false             #simplecraft.use
+enableSneakClick: true                 #simplecraft.sneakclick
+sneakClickItem: WORKBENCH
+
+### Lang ###
+messages:
+    errors:
+        noPermission: "&cYou dont have permissions."
+        reload: "&cReload failed."
+        notAPlayer: "&cYou should be a player to run this command."
+        invalidData: "&cThe data value is invalid."
+        invalidAmount: "&cThe amount is invalid."
+        positiveInt: "&cThe number should be a positive integer."
+        unknowMaterial: "&cThe material is unreconized."
+        uncraftable: "&cThe requested material can't be craft."
+        notCrafted: "&cItem not crafted, because you don't have enought resources."
+    reloadSuccess: "&aReload successful."
+    craftSuccess: "&aThe item is crafted."
+help:
+    errors:
+        noPermission: "&cYou dont have permissions."
+    reload: "reload the config file."
+    craft: "Craft the specified item."
+    help: "View the simple craft commands help."
+    base: "open the simple craft GUI."
